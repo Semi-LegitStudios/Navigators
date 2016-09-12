@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0;
+    border: 1px solid black;
+}
+
+body {
+    background-color: #f20505;
+    margin: 0;
+    padding: 0;
+}
+
+.topMenu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul.menuUl {
+    list-style-type: none;
+    background-color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menuUl li {
+    display: inline-block;
+    padding: 1em;
+    margin: auto;
+}
+
+ul.menuUl li a {
+    text-decoration: none;
+    color: #f2d70b;
+    font-size: 1.2em;
+}
+.welcome {
+    text-align: center;
+    background-color: #f2d70b;
+}
+
+.row {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    padding: 0;
+}
+
+#spacerTop {
+    height: 3.4em;
+}
+
+.nameLogo {
+    width: 100%;
+    height: auto;
+}
+
+.bottomRight {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 2.5em;
+}
+
+.navigatorFaces {
+    height: 12em;
+}
+
+#contact {
+    margin-bottom: 25px;
+}
+
+.spacerBottom {
+    height: 2em;
+}
+
+.episodes {
+    height: 45vw;
+    overflow: scroll;
+}
+
+.newsHeader {
+    font-family: "News Cycle";
+    padding: .5em;
+    color: black;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin: .1em;
+    text-align: center;
+}
+
+.news {
+    font-family: "News Cycle";
+}
+
+#newsPaper {
+    display: none;
+}
+
+#news {
+    background-color: rgba(256,256,256,.9);
+    margin-top: 3em;
+    box-shadow: .4em .4em 1em;
+    
+}
+
+.openArrow {
+    text-align: center;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+#navigators {
+    margin-top: 3em;
+}
+
+h4.newsSubHeader {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: .3em;
+    margin: 0;
+}
+h3.newsSubHeader {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.navigatorsHeader {
+    text-align: center;
+    padding: 1em;
+    text-shadow: 2px 2px 5px white;
+}
+
+.navigatorsLogo {
+    width: 100%;
+    height: auto;
+}
+
+#logoBox {
+    margin-top: 1em;
+    box-shadow: .4em .4em 1em;
+    background-color: rgba(256,256,256,.9);
+    padding: 1em;
+}
